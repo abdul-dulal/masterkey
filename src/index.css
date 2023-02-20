@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.stick::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 10px;
+  right: 0;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.25);
+}
+.hello {
+  background: linear-gradient(106.69deg, #42990d 13.38%, #076969 87.5%);
+}
